@@ -48,3 +48,15 @@ class Animal:
 class Cat(Animal):
     def meow(self):
         print("Мяу!")
+
+
+class Shape:
+
+    def are(self):
+        return 0
+class Circle(Shape):
+    def area(self, radius):
+        return 3,14 * radius **2
+class Square(Shape):
+    def area(self, side):
+        return side **2
